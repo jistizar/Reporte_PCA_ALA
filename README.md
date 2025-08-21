@@ -9,12 +9,12 @@ El objetivo es construir un sistema capaz de:
 2.  Utilizar este conocimiento para reconocer a personas en un conjunto de imágenes de prueba.
 3.  Reconstruir cualquier rostro utilizando un número variable de "eigenfaces" o componentes principales.
 
-Este proyecto fue desarrollado como parte de la asignatura de Análisis Lineal Aplicado.
+Este proyecto fue desarrollado como parte de la asignatura de Algebra Lineal Avanzada de la Maestría en Ciencias de la Inteligencia Artificial de la FIUNA.
 
 ## Estructura del Repositorio
 -   **`PCA_faces/`**: Contiene 150 imágenes de rostros en formato `.png` (240x240 píxeles) que se utilizan para entrenar el modelo PCA.
 -   **`recognition_faces/`**: Contiene 15 imágenes de los mismos sujetos que en el conjunto de entrenamiento, pero con diferentes expresiones, usadas para probar la eficacia del reconocimiento.
--   **`ReporteFinalALA2.ipynb`**: Es el archivo principal del proyecto. Contiene todo el código Python, las explicaciones paso a paso, los cálculos matemáticos y la visualización de los resultados.
+-   **`Codigo_PCA.ipynb`**: Es el archivo principal del proyecto. Contiene todo el código Python, las explicaciones paso a paso, los cálculos matemáticos y la visualización de los resultados.
 
 ## Requisitos e Instalación
 
@@ -50,7 +50,7 @@ La forma más sencilla de ejecutar el proyecto es abrir el notebook de Jupyter.
     jupyter notebook
     ```
 
-2.  **Abre el archivo `ReporteFinalALA2.ipynb`** en tu navegador.
+2.  **Abre el archivo `Codigo_PCA.ipynb`** en tu navegador.
 
 3.  **Ejecuta las celdas en orden**: El notebook está diseñado para ser ejecutado celda por celda. Cada celda realiza una parte del análisis, desde la carga de datos hasta la visualización de los resultados finales.
 
@@ -62,4 +62,5 @@ El notebook te guiará a través de los siguientes resultados clave:
 -   Análisis de reconocimiento facial.
 -   Reconstrucción de imágenes con 10, 50 y 100 componentes.
 
+Observación: El código está preparado para ser descargado y subir las carpetas a utilizar en un Drive para realizar las pruebas.
 ---
