@@ -1,7 +1,5 @@
 # Reconocimiento Facial con PCA (Eigenfaces)
 
-![Facial Recognition Banner](https://i.imgur.com/3f2Yf74.png)
-
 Este proyecto es una implementación del algoritmo de **Eigenfaces** utilizando Análisis de Componentes Principales (PCA) para el reconocimiento y reconstrucción de rostros. El análisis se realizó en un entorno de Google Colab con Python y las principales librerías de computación científica como NumPy y Matplotlib.
 
 ## Descripción del Proyecto
@@ -63,8 +61,5 @@ El notebook te guiará a través de los siguientes resultados clave:
 -   Extracción y visualización de los "eigenfaces".
 -   Análisis de reconocimiento facial.
 -   Reconstrucción de imágenes con 10, 50 y 100 componentes.
-
-![Ejemplo de Reconstrucción](https://i.imgur.com/u8T6n3b.png)
-*Ejemplo de la reconstrucción de una imagen usando diferentes números de componentes principales.*
 
 ---
